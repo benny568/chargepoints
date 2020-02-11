@@ -42,10 +42,10 @@ public class APIcontrollerTest {
         st.setElapsedMins(time);
     }
 
-    @Test
-    public void testSetsAndGets() {
-       api.saveSessionInfo(this.st);
-
-       assertEquals(st, api.getSessionById(this.id));
-    }
+//    @Test
+//    public void testSetsAndGets() {
+//       api.saveSessionInfo(this.st);
+//
+//       assertEquals(st, api.getSessionById(this.id));
+//    }
 }
